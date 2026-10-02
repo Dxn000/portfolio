@@ -17,7 +17,7 @@ function Hero() {
       <p className="hero-description reveal">{description}</p>
 
       <div className="hero-photo reveal">
-        <img src="/profile.jpg" alt={name} />
+        <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt={name} />
       </div>
     </header>
   );
